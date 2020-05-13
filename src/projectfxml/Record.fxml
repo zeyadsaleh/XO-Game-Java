@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="578.0" prefWidth="688.0" stylesheets="@newCascadeStyleSheet.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane id="background" layoutX="-2.0" prefHeight="578.0" prefWidth="696.0" stylesheets="@newCascadeStyleSheet.css">
+         <children>
+            <Button id="button" layoutX="28.0" layoutY="447.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="168.0" text="Back" />
+            <ScrollPane id="scrollpane" layoutX="268.0" layoutY="243.0" prefHeight="271.0" prefWidth="362.0">
+               <content>
+                  <VBox prefHeight="268.0" prefWidth="344.0">
+                     <children>
+                        <Button id="record" mnemonicParsing="false" prefHeight="46.0" prefWidth="357.0" text="Button" />
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </Pane>
+      <ImageView fitHeight="151.0" fitWidth="480.0" layoutX="114.0" layoutY="70.0">
+         <image>
+            <Image url="@logooo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
